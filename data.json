@@ -1,0 +1,1173 @@
+{
+  "meta": {
+    "title": "현미흑초 맛취향 탐색 파일럿 · 목업 데이터",
+    "brand": "인양양초장 × 푸딩클럽",
+    "version": "0.1-sample",
+    "isSample": true,
+    "sampleNotice": "컨셉 목업용 샘플 데이터입니다. 시료 구성과 표현 데이터는 예시이며, 실제 구성은 협의를 통해 결정합니다.",
+    "encoding": "UTF-8",
+    "scoreScale": 8,
+    "participantsPerProduct": 8,
+    "samples": "숙성 3년·5년·8년 현미흑초 3종 (제안서 기준)"
+  },
+  "wheel": {
+    "center": {
+      "label": "풍미예찬클럽",
+      "sub": "현미흑초 테이스팅 휠"
+    },
+    "startAt": "appearance",
+    "categories": [
+      {
+        "id": "appearance",
+        "label": "외관",
+        "color": "#C48F2F",
+        "groups": [
+          {
+            "id": "color",
+            "label": "색",
+            "words": [
+              {
+                "id": "ap_amber",
+                "label": "맑은 호박색",
+                "ptci": {
+                  "DB": -1
+                }
+              },
+              {
+                "id": "ap_darkbrown",
+                "label": "짙은 갈색",
+                "ptci": {
+                  "DB": 1
+                }
+              },
+              {
+                "id": "ap_blackbrown",
+                "label": "흑갈색",
+                "ptci": {
+                  "DB": 2
+                }
+              },
+              {
+                "id": "ap_redbrown",
+                "label": "붉은 기 도는 갈색",
+                "ptci": {
+                  "ML": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": "clarity",
+            "label": "투명도",
+            "words": [
+              {
+                "id": "ap_clear",
+                "label": "맑고 깨끗함",
+                "ptci": {
+                  "ML": -1
+                }
+              },
+              {
+                "id": "ap_hazy",
+                "label": "은은하게 탁함",
+                "ptci": {
+                  "ML": 1
+                }
+              },
+              {
+                "id": "ap_sediment",
+                "label": "가라앉은 침전물",
+                "ptci": {
+                  "FA": 1,
+                  "ST": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": "flow",
+            "label": "점도",
+            "words": [
+              {
+                "id": "ap_thin",
+                "label": "물처럼 묽음",
+                "ptci": {
+                  "ST": -2
+                }
+              },
+              {
+                "id": "ap_sticky",
+                "label": "살짝 끈적임",
+                "ptci": {
+                  "ST": 1
+                }
+              },
+              {
+                "id": "ap_syrup",
+                "label": "시럽처럼 농후함",
+                "ptci": {
+                  "DB": 1,
+                  "ST": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aroma",
+        "label": "향",
+        "color": "#BC6B3C",
+        "groups": [
+          {
+            "id": "fermented",
+            "label": "발효향",
+            "words": [
+              {
+                "id": "ar_nuruk",
+                "label": "누룩 냄새",
+                "ptci": {
+                  "FA": 2,
+                  "ML": 1
+                }
+              },
+              {
+                "id": "ar_makgeolli",
+                "label": "막걸리 향",
+                "ptci": {
+                  "FA": 1,
+                  "ML": 1
+                }
+              },
+              {
+                "id": "ar_riceferm",
+                "label": "쌀 발효향",
+                "ptci": {
+                  "FA": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": "grain",
+            "label": "곡물향",
+            "words": [
+              {
+                "id": "ar_nurungji",
+                "label": "현미 누룽지 향",
+                "ptci": {
+                  "FA": -1
+                }
+              },
+              {
+                "id": "ar_ricebran",
+                "label": "구수한 쌀겨 향",
+                "ptci": {
+                  "FA": -1,
+                  "ML": 1
+                }
+              },
+              {
+                "id": "ar_roasted",
+                "label": "볶은 곡물 향",
+                "ptci": {
+                  "DB": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": "sweetaroma",
+            "label": "달콤한 향",
+            "words": [
+              {
+                "id": "ar_raisin",
+                "label": "건포도",
+                "ptci": {
+                  "ML": 1
+                }
+              },
+              {
+                "id": "ar_jujube",
+                "label": "말린 대추",
+                "ptci": {
+                  "ML": 1
+                }
+              },
+              {
+                "id": "ar_brownsugar",
+                "label": "흑설탕",
+                "ptci": {
+                  "FA": -1
+                }
+              },
+              {
+                "id": "ar_caramel",
+                "label": "캐러멜",
+                "ptci": {
+                  "FA": -1,
+                  "DB": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": "aged",
+            "label": "숙성향",
+            "words": [
+              {
+                "id": "ar_soy",
+                "label": "간장 냄새",
+                "ptci": {
+                  "FA": 1,
+                  "DB": 1
+                }
+              },
+              {
+                "id": "ar_wood",
+                "label": "나무통 향",
+                "ptci": {
+                  "FA": 1,
+                  "ML": 2
+                }
+              },
+              {
+                "id": "ar_earth",
+                "label": "흙내음",
+                "ptci": {
+                  "FA": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "taste",
+        "label": "맛",
+        "color": "#B59B34",
+        "groups": [
+          {
+            "id": "sour",
+            "label": "산미",
+            "words": [
+              {
+                "id": "ta_sharp",
+                "label": "날카로운 산미",
+                "ptci": {
+                  "DB": 2
+                }
+              },
+              {
+                "id": "ta_soft",
+                "label": "부드러운 산미",
+                "ptci": {
+                  "DB": -1
+                }
+              },
+              {
+                "id": "ta_round",
+                "label": "둥근 산미",
+                "ptci": {
+                  "DB": -1,
+                  "ML": 1
+                }
+              },
+              {
+                "id": "ta_fresh",
+                "label": "청량한 산미",
+                "ptci": {
+                  "DB": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": "sweet",
+            "label": "단맛",
+            "words": [
+              {
+                "id": "ta_gentlesweet",
+                "label": "은은한 단맛",
+                "ptci": {
+                  "DB": -1,
+                  "ML": -1
+                }
+              },
+              {
+                "id": "ta_blackcandy",
+                "label": "흑당 같은 단맛",
+                "ptci": {
+                  "ML": 1
+                }
+              },
+              {
+                "id": "ta_taffy",
+                "label": "엿 같은 단맛",
+                "ptci": {
+                  "FA": -1
+                }
+              }
+            ]
+          },
+          {
+            "id": "umami",
+            "label": "감칠맛",
+            "words": [
+              {
+                "id": "ta_savory",
+                "label": "구수한 감칠맛",
+                "ptci": {
+                  "FA": -1,
+                  "ML": 1
+                }
+              },
+              {
+                "id": "ta_soyumami",
+                "label": "간장 같은 감칠맛",
+                "ptci": {
+                  "FA": 1,
+                  "ML": 1,
+                  "DB": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": "astringent",
+            "label": "쓴·떫은맛",
+            "words": [
+              {
+                "id": "ta_astringent",
+                "label": "떫은 끝맛",
+                "ptci": {
+                  "FA": 1,
+                  "DB": 1,
+                  "ST": 1
+                }
+              },
+              {
+                "id": "ta_bitter",
+                "label": "약한 쓴맛",
+                "ptci": {
+                  "FA": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "texture",
+        "label": "식감",
+        "color": "#8B8A4A",
+        "groups": [
+          {
+            "id": "body",
+            "label": "바디감",
+            "words": [
+              {
+                "id": "tx_light",
+                "label": "가벼움",
+                "ptci": {
+                  "DB": -1,
+                  "ST": -1
+                }
+              },
+              {
+                "id": "tx_heavy",
+                "label": "묵직함",
+                "ptci": {
+                  "DB": 1,
+                  "ST": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": "mouthfeel",
+            "label": "질감",
+            "words": [
+              {
+                "id": "tx_smooth",
+                "label": "매끄러움",
+                "ptci": {
+                  "ST": -2
+                }
+              },
+              {
+                "id": "tx_silky",
+                "label": "실키함",
+                "ptci": {
+                  "ST": -1
+                }
+              },
+              {
+                "id": "tx_coat",
+                "label": "입천장에 남는 코팅감",
+                "ptci": {
+                  "ST": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": "sensation",
+            "label": "자극",
+            "words": [
+              {
+                "id": "tx_tingle",
+                "label": "톡 쏘는 느낌",
+                "ptci": {
+                  "DB": 1,
+                  "ST": 1
+                }
+              },
+              {
+                "id": "tx_cool",
+                "label": "목 넘김이 시원함",
+                "ptci": {
+                  "ST": -1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "finish",
+        "label": "여운",
+        "color": "#B98BA8",
+        "groups": [
+          {
+            "id": "length",
+            "label": "여운 길이",
+            "words": [
+              {
+                "id": "fn_short",
+                "label": "짧게 사라짐",
+                "ptci": {
+                  "DB": -1
+                }
+              },
+              {
+                "id": "fn_long",
+                "label": "오래 지속됨",
+                "ptci": {
+                  "DB": 1,
+                  "ML": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": "aftertaste",
+            "label": "여운 향",
+            "words": [
+              {
+                "id": "fn_grainsweet",
+                "label": "곡물의 단맛이 남음",
+                "ptci": {
+                  "FA": -1
+                }
+              },
+              {
+                "id": "fn_sourtail",
+                "label": "새콤한 잔향",
+                "ptci": {
+                  "DB": 1
+                }
+              },
+              {
+                "id": "fn_nuruktail",
+                "label": "은은한 누룩향",
+                "ptci": {
+                  "FA": 1,
+                  "ML": 1
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": "A",
+      "name": "현미흑초 시료 A",
+      "aging": "3년",
+      "tagline": "둥글어지는 곡물의 단맛",
+      "summary": "둥근 산미와 누룽지 향, 매끄러운 목 넘김",
+      "scores": {
+        "body": 4,
+        "texture": 3,
+        "finish": 4,
+        "acidity": 5
+      },
+      "topWords": [
+        {
+          "wordId": "ta_round",
+          "count": 5
+        },
+        {
+          "wordId": "ar_nurungji",
+          "count": 5
+        },
+        {
+          "wordId": "ap_amber",
+          "count": 4
+        },
+        {
+          "wordId": "ta_gentlesweet",
+          "count": 4
+        },
+        {
+          "wordId": "tx_smooth",
+          "count": 4
+        },
+        {
+          "wordId": "ar_makgeolli",
+          "count": 3
+        }
+      ],
+      "color": "#B8762C"
+    },
+    {
+      "id": "B",
+      "name": "현미흑초 시료 B",
+      "aging": "5년",
+      "tagline": "누룩과 감칠맛이 깊어진 맛",
+      "summary": "누룩 향과 구수한 감칠맛, 실키한 질감",
+      "scores": {
+        "body": 5,
+        "texture": 5,
+        "finish": 6,
+        "acidity": 4
+      },
+      "topWords": [
+        {
+          "wordId": "ap_darkbrown",
+          "count": 6
+        },
+        {
+          "wordId": "ar_nuruk",
+          "count": 5
+        },
+        {
+          "wordId": "ta_savory",
+          "count": 5
+        },
+        {
+          "wordId": "fn_long",
+          "count": 5
+        },
+        {
+          "wordId": "tx_silky",
+          "count": 4
+        },
+        {
+          "wordId": "ar_raisin",
+          "count": 3
+        }
+      ],
+      "color": "#7C4220"
+    },
+    {
+      "id": "C",
+      "name": "현미흑초 시료 C",
+      "aging": "8년",
+      "tagline": "시간이 농축된 흑당과 나무통",
+      "summary": "말린 대추·나무통 향, 흑당 같은 단맛, 아주 긴 여운",
+      "scores": {
+        "body": 7,
+        "texture": 6,
+        "finish": 8,
+        "acidity": 3
+      },
+      "topWords": [
+        {
+          "wordId": "fn_long",
+          "count": 7
+        },
+        {
+          "wordId": "ap_blackbrown",
+          "count": 6
+        },
+        {
+          "wordId": "ar_jujube",
+          "count": 5
+        },
+        {
+          "wordId": "ta_blackcandy",
+          "count": 5
+        },
+        {
+          "wordId": "tx_coat",
+          "count": 4
+        },
+        {
+          "wordId": "ar_wood",
+          "count": 3
+        },
+        {
+          "wordId": "ar_caramel",
+          "count": 3
+        }
+      ],
+      "color": "#3D2215"
+    }
+  ],
+  "ptci": {
+    "axes": [
+      {
+        "key": "FA",
+        "name": "탐험성",
+        "negative": {
+          "code": "F",
+          "label": "Familiar"
+        },
+        "positive": {
+          "code": "A",
+          "label": "Adventurous"
+        }
+      },
+      {
+        "key": "ML",
+        "name": "복잡성",
+        "negative": {
+          "code": "M",
+          "label": "Minimal"
+        },
+        "positive": {
+          "code": "L",
+          "label": "Layered"
+        }
+      },
+      {
+        "key": "DB",
+        "name": "강도",
+        "negative": {
+          "code": "D",
+          "label": "Delicate"
+        },
+        "positive": {
+          "code": "B",
+          "label": "Bold"
+        }
+      },
+      {
+        "key": "ST",
+        "name": "식감",
+        "negative": {
+          "code": "S",
+          "label": "Smooth"
+        },
+        "positive": {
+          "code": "T",
+          "label": "Textural"
+        }
+      }
+    ],
+    "scoring": {
+      "rule": "선택한 단어의 ptci 값을 축별로 합산한다. 합계가 0보다 크면 positive 코드(A/L/B/T), 0 이하이면 negative 코드(F/M/D/S)를 부여한다.",
+      "minWordsToResult": 5,
+      "maxWordsToSelect": 12
+    }
+  },
+  "recommendations": {
+    "byCode": {
+      "ALBT": {
+        "label": "Adventurous / Layered / Bold / Textural",
+        "description": "새로운 맛을 두려워하지 않고, 여러 풍미가 겹쳐지는 강렬한 음식과 다양한 식감의 대비를 즐기는 타입.",
+        "recommendedProduct": "C",
+        "keywords": [
+          "누룩",
+          "발효",
+          "불 향",
+          "산미",
+          "크런치",
+          "새로운 페어링 도전"
+        ],
+        "pairing": [
+          "타코",
+          "사천요리",
+          "내추럴와인 페어링",
+          "발효 식재료",
+          "컨템포러리 다이닝"
+        ],
+        "surprise": {
+          "item": "바닐라 젤라또 + 8년 현미흑초 한 방울",
+          "reason": "흑당·나무통 풍미가 크림의 단맛을 깊게 받쳐줘요"
+        },
+        "recipe": {
+          "name": "현미흑초 글레이즈 구운 버섯 타코",
+          "time": "20분",
+          "level": "쉬움"
+        },
+        "match": [
+          {
+            "code": "AMBT",
+            "percent": 91
+          },
+          {
+            "code": "FLBT",
+            "percent": 84
+          }
+        ]
+      },
+      "AMBT": {
+        "label": "Adventurous / Minimal / Bold / Textural",
+        "description": "단순하지만 선명한 맛, 확실한 식감 대비를 즐기는 타입.",
+        "recommendedProduct": "A",
+        "keywords": [
+          "산미",
+          "크런치",
+          "불 향",
+          "깔끔함"
+        ],
+        "pairing": [
+          "튀김",
+          "굴",
+          "냉면"
+        ],
+        "surprise": {
+          "item": "프라이드치킨 + 현미흑초 소스",
+          "reason": "날카로운 산미가 기름기를 시원하게 잡아줘요"
+        },
+        "recipe": {
+          "name": "현미흑초 초간장 굴튀김",
+          "time": "15분",
+          "level": "쉬움"
+        },
+        "match": [
+          {
+            "code": "ALBT",
+            "percent": 91
+          }
+        ]
+      },
+      "FLBT": {
+        "label": "Familiar / Layered / Bold / Textural",
+        "description": "익숙한 메뉴 속에서 풍미의 깊이와 식감을 찾는 타입.",
+        "recommendedProduct": "B",
+        "keywords": [
+          "구수함",
+          "감칠맛",
+          "숙성",
+          "쫀득함"
+        ],
+        "pairing": [
+          "불고기",
+          "수육",
+          "장아찌"
+        ],
+        "surprise": {
+          "item": "된장찌개 마무리 한 방울",
+          "reason": "누룩 향이 국물의 감칠맛을 한 겹 더해줘요"
+        },
+        "recipe": {
+          "name": "현미흑초 불고기 덮밥",
+          "time": "25분",
+          "level": "보통"
+        },
+        "match": [
+          {
+            "code": "ALBT",
+            "percent": 84
+          }
+        ]
+      },
+      "FMDS": {
+        "label": "Familiar / Minimal / Delicate / Smooth",
+        "description": "편안하고 담백한 맛, 부드러운 식감을 선호하는 타입.",
+        "recommendedProduct": "A",
+        "keywords": [
+          "담백함",
+          "은은한 단맛",
+          "부드러움"
+        ],
+        "pairing": [
+          "두부",
+          "계란찜",
+          "흰살생선회"
+        ],
+        "surprise": {
+          "item": "요거트 + 현미흑초 꿀 드링크",
+          "reason": "둥근 산미가 유제품의 고소함과 잘 어울려요"
+        },
+        "recipe": {
+          "name": "현미흑초 두부 냉채",
+          "time": "10분",
+          "level": "쉬움"
+        },
+        "match": [
+          {
+            "code": "FLDS",
+            "percent": 88
+          }
+        ]
+      },
+      "FLDS": {
+        "label": "Familiar / Layered / Delicate / Smooth",
+        "description": "은은하지만 층이 있는 풍미, 매끄러운 목 넘김을 좋아하는 타입.",
+        "recommendedProduct": "A",
+        "keywords": [
+          "은은한 향",
+          "곡물",
+          "부드러운 산미"
+        ],
+        "pairing": [
+          "죽",
+          "나물 비빔밥",
+          "차"
+        ],
+        "surprise": {
+          "item": "배숙 + 현미흑초 한 스푼",
+          "reason": "곡물 단맛과 과일 향이 겹쳐져 여운이 길어져요"
+        },
+        "recipe": {
+          "name": "현미흑초 나물 비빔밥",
+          "time": "20분",
+          "level": "쉬움"
+        },
+        "match": [
+          {
+            "code": "FMDS",
+            "percent": 88
+          }
+        ]
+      },
+      "ALDS": {
+        "label": "Adventurous / Layered / Delicate / Smooth",
+        "description": "낯선 재료를 섬세하게 조합한 부드러운 맛을 즐기는 타입.",
+        "recommendedProduct": "A",
+        "keywords": [
+          "허브",
+          "발효",
+          "섬세함"
+        ],
+        "pairing": [
+          "허브 샐러드",
+          "치즈",
+          "화이트와인"
+        ],
+        "surprise": {
+          "item": "리코타 치즈 + 현미흑초 + 꿀",
+          "reason": "누룽지 향이 치즈의 풍미를 부드럽게 감싸줘요"
+        },
+        "recipe": {
+          "name": "현미흑초 허브 비네그레트 샐러드",
+          "time": "10분",
+          "level": "쉬움"
+        },
+        "match": [
+          {
+            "code": "ALBT",
+            "percent": 79
+          }
+        ]
+      },
+      "FMBT": {
+        "label": "Familiar / Minimal / Bold / Textural",
+        "description": "단순하고 진한 맛, 쫄깃하고 바삭한 식감을 좋아하는 타입.",
+        "recommendedProduct": "B",
+        "keywords": [
+          "진한 맛",
+          "바삭함",
+          "쫄깃함"
+        ],
+        "pairing": [
+          "삼겹살",
+          "부침개",
+          "족발"
+        ],
+        "surprise": {
+          "item": "김치전 + 현미흑초 양파절임",
+          "reason": "깊은 산미가 기름진 맛을 깔끔하게 정리해줘요"
+        },
+        "recipe": {
+          "name": "현미흑초 양파절임 곁들인 부침개",
+          "time": "20분",
+          "level": "쉬움"
+        },
+        "match": [
+          {
+            "code": "FLBT",
+            "percent": 86
+          }
+        ]
+      },
+      "AMDS": {
+        "label": "Adventurous / Minimal / Delicate / Smooth",
+        "description": "새로운 재료를 가볍고 깨끗하게 즐기는 타입.",
+        "recommendedProduct": "A",
+        "keywords": [
+          "청량함",
+          "깨끗함",
+          "새로운 시도"
+        ],
+        "pairing": [
+          "세비체",
+          "냉채",
+          "스파클링"
+        ],
+        "surprise": {
+          "item": "토닉워터 + 현미흑초 + 라임",
+          "reason": "맑은 산미가 청량한 무알콜 칵테일이 돼요"
+        },
+        "recipe": {
+          "name": "현미흑초 음료 키트 · 시트러스 쿨러",
+          "time": "5분",
+          "level": "쉬움"
+        },
+        "match": [
+          {
+            "code": "AMBT",
+            "percent": 82
+          }
+        ]
+      },
+      "FMDT": {
+        "label": "Familiar / Minimal / Delicate / Textural",
+        "description": "익숙하고 담백한 맛에 씹는 재미를 더하는 타입.",
+        "recommendedProduct": "A",
+        "keywords": [
+          "담백함",
+          "고소함",
+          "아삭함"
+        ],
+        "pairing": [
+          "누룽지",
+          "메밀전병",
+          "연근조림"
+        ],
+        "surprise": {
+          "item": "누룽지 칩 + 현미흑초 꿀 디핑",
+          "reason": "구수한 곡물 향끼리 만나 산미가 부드럽게 느껴져요"
+        },
+        "recipe": {
+          "name": "현미흑초 연근 초절임",
+          "time": "15분",
+          "level": "쉬움"
+        },
+        "match": [
+          {
+            "code": "FMDS",
+            "percent": 87
+          }
+        ]
+      },
+      "FMBS": {
+        "label": "Familiar / Minimal / Bold / Smooth",
+        "description": "익숙하고 선명한 맛을 부드럽게 즐기는 타입.",
+        "recommendedProduct": "B",
+        "keywords": [
+          "선명함",
+          "시원함",
+          "깔끔함"
+        ],
+        "pairing": [
+          "냉국",
+          "비빔국수",
+          "초계탕"
+        ],
+        "surprise": {
+          "item": "콩국수 + 현미흑초 한 스푼",
+          "reason": "고소한 콩물에 산미가 더해져 끝맛이 가벼워져요"
+        },
+        "recipe": {
+          "name": "현미흑초 오이냉국",
+          "time": "10분",
+          "level": "쉬움"
+        },
+        "match": [
+          {
+            "code": "FMBT",
+            "percent": 85
+          }
+        ]
+      },
+      "FLDT": {
+        "label": "Familiar / Layered / Delicate / Textural",
+        "description": "익숙한 재료 속 은근한 깊이와 식감 대비를 찾는 타입.",
+        "recommendedProduct": "B",
+        "keywords": [
+          "곡물",
+          "은근한 단맛",
+          "바삭함"
+        ],
+        "pairing": [
+          "잡곡밥",
+          "견과 강정",
+          "나물전"
+        ],
+        "surprise": {
+          "item": "약과 + 현미흑초 시럽",
+          "reason": "곡물 단맛이 겹치면서 단맛이 덜 무겁게 느껴져요"
+        },
+        "recipe": {
+          "name": "현미흑초 견과 멸치볶음",
+          "time": "15분",
+          "level": "쉬움"
+        },
+        "match": [
+          {
+            "code": "FLBT",
+            "percent": 83
+          }
+        ]
+      },
+      "FLBS": {
+        "label": "Familiar / Layered / Bold / Smooth",
+        "description": "깊고 진한 풍미를 부드러운 질감으로 즐기는 타입.",
+        "recommendedProduct": "C",
+        "keywords": [
+          "숙성",
+          "깊은 단맛",
+          "부드러움"
+        ],
+        "pairing": [
+          "갈비찜",
+          "장조림",
+          "묵은지찜"
+        ],
+        "surprise": {
+          "item": "초콜릿 무스 + 8년 시료 한 방울",
+          "reason": "나무통·건과일 향이 카카오의 쌉쌀함과 겹쳐요"
+        },
+        "recipe": {
+          "name": "현미흑초 갈비찜",
+          "time": "50분",
+          "level": "보통"
+        },
+        "match": [
+          {
+            "code": "FLBT",
+            "percent": 89
+          }
+        ]
+      },
+      "AMDT": {
+        "label": "Adventurous / Minimal / Delicate / Textural",
+        "description": "새로운 재료를 가볍게, 식감 위주로 즐기는 타입.",
+        "recommendedProduct": "A",
+        "keywords": [
+          "가벼움",
+          "아삭함",
+          "새로운 조합"
+        ],
+        "pairing": [
+          "포케",
+          "월남쌈",
+          "채소 스틱"
+        ],
+        "surprise": {
+          "item": "수박 + 현미흑초 + 소금 한 꼬집",
+          "reason": "산미와 짠맛이 수박의 단맛을 또렷하게 살려줘요"
+        },
+        "recipe": {
+          "name": "현미흑초 드레싱 포케",
+          "time": "15분",
+          "level": "쉬움"
+        },
+        "match": [
+          {
+            "code": "AMDS",
+            "percent": 86
+          }
+        ]
+      },
+      "AMBS": {
+        "label": "Adventurous / Minimal / Bold / Smooth",
+        "description": "강렬하지만 깔끔하게 떨어지는 맛을 좋아하는 타입.",
+        "recommendedProduct": "A",
+        "keywords": [
+          "강렬함",
+          "깔끔함",
+          "청량함"
+        ],
+        "pairing": [
+          "마라 비빔면",
+          "커리",
+          "하이볼"
+        ],
+        "surprise": {
+          "item": "에스프레소 토닉 + 현미흑초",
+          "reason": "커피의 쓴맛 위로 곡물 산미가 산뜻하게 올라와요"
+        },
+        "recipe": {
+          "name": "현미흑초 하이볼 (무알콜 가능)",
+          "time": "5분",
+          "level": "쉬움"
+        },
+        "match": [
+          {
+            "code": "AMBT",
+            "percent": 88
+          }
+        ]
+      },
+      "ALDT": {
+        "label": "Adventurous / Layered / Delicate / Textural",
+        "description": "섬세한 풍미가 여러 겹 쌓이고 식감이 살아 있는 요리를 즐기는 타입.",
+        "recommendedProduct": "B",
+        "keywords": [
+          "누룩",
+          "발효",
+          "바삭함"
+        ],
+        "pairing": [
+          "그래놀라 볼",
+          "곡물 샐러드",
+          "치즈 플레이트"
+        ],
+        "surprise": {
+          "item": "그릭요거트 + 그래놀라 + 현미흑초 꿀",
+          "reason": "누룩 향이 발효유의 산미와 자연스럽게 이어져요"
+        },
+        "recipe": {
+          "name": "현미흑초 곡물 샐러드",
+          "time": "20분",
+          "level": "쉬움"
+        },
+        "match": [
+          {
+            "code": "ALDS",
+            "percent": 87
+          }
+        ]
+      },
+      "ALBS": {
+        "label": "Adventurous / Layered / Bold / Smooth",
+        "description": "진하고 복합적인 풍미를 매끄럽게 즐기는 타입.",
+        "recommendedProduct": "C",
+        "keywords": [
+          "숙성",
+          "복합미",
+          "긴 여운"
+        ],
+        "pairing": [
+          "블루치즈",
+          "오리 요리",
+          "숙성 와인"
+        ],
+        "surprise": {
+          "item": "딸기 + 8년 시료 + 후추",
+          "reason": "숙성된 산미가 딸기 향을 길게 끌어줘요"
+        },
+        "recipe": {
+          "name": "현미흑초 딸기 콩포트",
+          "time": "15분",
+          "level": "쉬움"
+        },
+        "match": [
+          {
+            "code": "ALBT",
+            "percent": 90
+          }
+        ]
+      }
+    }
+  }
+}
